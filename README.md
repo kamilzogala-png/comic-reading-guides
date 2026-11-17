@@ -2,8 +2,20 @@
 
 A Marvel + DC reading-guide companion project intended for Paperback 0.9.
 
-> **Project status: starter implementation, not a ready-to-install Paperback extension.**
-> The exact Paperback 0.9 extension SDK integration is intentionally not fabricated. The project currently provides typed guide data, sample guide entries, issue matching, progress-state helpers, and validation. A host adapter can be added once the relevant SDK capabilities are verified.
+> **Project status: working Paperback 0.9 extension (starter sample).**
+> It lists reading guides and their issues in order. It does not open issues from other sources: no documented Paperback API for that has been verified (see PAPERBACK-INTEGRATION.md).
+
+## Install in Paperback 0.9
+
+1. In the GitHub repo: Settings → Pages → Source: "Deploy from a branch", branch `gh-pages`, folder `/ (root)`.
+2. Wait for the "Build and Deploy" action (Actions tab) to finish.
+3. In Paperback: Settings → Extensions → Add Repository, and paste:
+
+```text
+https://kamilzogala-png.github.io/comic-reading-guides/0.9/stable
+```
+
+4. Install "Comic Reading Guides" from that repository.
 
 ## What is included
 
@@ -12,6 +24,7 @@ A Marvel + DC reading-guide companion project intended for Paperback 0.9.
 - Conservative matching of guide issues to chapter candidates.
 - Read / reading / unread progress helpers.
 - JSON guide validation script.
+- Paperback extension (`main.ts`, `pbconfig.ts`) built and published by GitHub Actions.
 - Paperback integration checklist and data/copyright policy.
 
 ## Planned user experience
@@ -35,6 +48,8 @@ npm run validate
 npm run typecheck
 ```
 
+The GitHub Actions workflow (`.github/workflows/build.yml`) copies the extension files into `src/ReadingGuides/` before bundling, so the repo can stay flat.
+
 ## Repository layout
 
 All files live in the repository root (flat layout, so it can be uploaded from a phone):
@@ -44,6 +59,8 @@ All files live in the repository root (flat layout, so it can be uploaded from a
 ├── model.ts, matching.ts,
 │   normalize.ts, progress.ts,
 │   index.ts                    # TypeScript domain logic
+├── main.ts, pbconfig.ts        # Paperback extension
+├── icon.png, cover.png, page.png
 ├── validate-guides.mjs         # Data validation script
 ├── PAPERBACK-INTEGRATION.md    # SDK checklist
 ├── DATA-SOURCES.md             # Data and copyright policy

@@ -1,0 +1,45 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install
+      - name: Validate guide data
+        run: npm run validate
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Arrange files into the layout Paperback toolchain expects
+        run: |
+          mkdir -p src/ReadingGuides/static
+          cp main.ts pbconfig.ts guides.json src/ReadingGuides/
+          cp icon.png src/ReadingGuides/static/icon.png
+      - name: Bundle extension
+        run: npm run bundle
+      - name: Add images used by the extension
+        run: cp cover.png page.png bundles/
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: bundles
+          destination_dir: 0.9/stable
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
