@@ -1,0 +1,14 @@
+{
+  "name": "comic-reading-guides",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marvel and DC reading guide companion for Paperback 0.9",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node validate-guides.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

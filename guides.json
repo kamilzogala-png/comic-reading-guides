@@ -1,0 +1,38 @@
+[
+  {
+    "id": "marvel-civil-war-2006",
+    "publisher": "Marvel",
+    "title": "Civil War",
+    "subtitle": "Event reading guide sample",
+    "category": "event",
+    "description": "A small starter sample of the main event and selected tie-ins. This is not a complete or definitive reading order.",
+    "readingOrder": "recommended",
+    "updatedAt": "2026-11-17",
+    "sourceAttribution": ["Editorial starter sample; issue order and tie-in placement require verification before publication."],
+    "issues": [
+      {"id":"marvel-cw-001","publisher":"Marvel","series":"Civil War","issueNumber":"1","year":2006,"readingNote":"Main event #1."},
+      {"id":"marvel-cw-002","publisher":"Marvel","series":"Amazing Spider-Man","issueNumber":"532","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
+      {"id":"marvel-cw-003","publisher":"Marvel","series":"New Avengers","issueNumber":"21","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
+      {"id":"marvel-cw-004","publisher":"Marvel","series":"Fantastic Four","issueNumber":"536","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
+      {"id":"marvel-cw-005","publisher":"Marvel","series":"Civil War","issueNumber":"2","year":2006,"readingNote":"Main event #2."}
+    ]
+  },
+  {
+    "id": "dc-flashpoint-2011",
+    "publisher": "DC",
+    "title": "Flashpoint",
+    "subtitle": "Event reading guide sample",
+    "category": "event",
+    "description": "The five-issue core event. Tie-ins and companion series are intentionally not included in this starter sample.",
+    "readingOrder": "publication",
+    "updatedAt": "2026-11-17",
+    "sourceAttribution": ["Editorial starter sample; verify bibliographic details and add public source references before publication."],
+    "issues": [
+      {"id":"dc-fp-001","publisher":"DC","series":"Flashpoint","issueNumber":"1","year":2011,"readingNote":"Main event #1."},
+      {"id":"dc-fp-002","publisher":"DC","series":"Flashpoint","issueNumber":"2","year":2011,"readingNote":"Main event #2."},
+      {"id":"dc-fp-003","publisher":"DC","series":"Flashpoint","issueNumber":"3","year":2011,"readingNote":"Main event #3."},
+      {"id":"dc-fp-004","publisher":"DC","series":"Flashpoint","issueNumber":"4","year":2011,"readingNote":"Main event #4."},
+      {"id":"dc-fp-005","publisher":"DC","series":"Flashpoint","issueNumber":"5","year":2011,"readingNote":"Main event #5."}
+    ]
+  }
+]
