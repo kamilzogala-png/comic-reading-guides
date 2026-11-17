@@ -1,28 +1,28 @@
-# Paperback 0.9 integration checklist
+# Paperback 0.9 integration notes
 
-## Current status
+## How the extension is built
 
-This repository is not yet an installable Paperback extension. The exact 0.9 SDK surface must be verified before writing a host adapter. The TypeScript code here is application/domain logic only.
+- Extension API: Paperback 0.9 (`@paperback/types` and `@paperback/toolchain` 1.0.0-alpha). Capabilities: settings form, discover sections, search and chapters.
+- Guides are served as one title each, their issues as chapters (stable chapter id = issue id, so read progress survives list updates).
+- The extension does **not** use any other Paperback source. Extensions are sandboxed and no API for reading another source's library was verified. Instead it talks straight to the user's Komga server over HTTP (`komga.ts`) with credentials from its own settings, added to requests by an interceptor (`network.ts`) only for the configured server address.
 
-## Verify against official 0.9 SDK documentation and a real app build
+## Komga endpoints used
 
-- [ ] Extension manifest format, required identifiers, and packaging process.
-- [ ] Custom catalog/list/detail UI support for guide browsing.
-- [ ] Supported persistent storage API, quotas, and migration behavior.
-- [ ] Whether an extension can enumerate other installed source IDs.
-- [ ] Whether it can search another source's series and chapters programmatically.
-- [ ] Whether a documented action/deep link can open a chapter owned by another source.
-- [ ] Whether another source's chapter read state can be queried or changed.
-- [ ] Whether any of the above require user consent or source-specific capabilities.
+- `GET /api/v2/users/me` (connection test)
+- `GET /api/v1/series?search=…` (find series)
+- `GET /api/v1/series/{id}/books` (find the issue by number)
+- `GET /api/v1/books/{id}/pages` and `GET /api/v1/books/{id}/pages/{n}` (reading; `?convert=jpeg` for formats other than JPEG/PNG/WebP/GIF)
 
-## Implementation rules
+Authentication: `X-API-Key` header, or HTTP Basic.
 
-1. Do not call undocumented globals or invent URL schemes.
-2. Do not claim cross-source synchronization until it is documented and tested.
-3. Treat multiple matching chapters as ambiguous and ask the user to choose.
-4. Do not persist provider IDs or open URLs unless they came from a supported API.
-5. Keep guide progress separate from provider read state unless the SDK explicitly supports synchronization.
+## Things to check on a real device
 
-## Fallback if cross-source APIs are unavailable
+- [ ] Plain `http://` addresses on a local network load pages in the reader. If not, use an HTTPS address (reverse proxy or Tailscale HTTPS).
+- [ ] The settings form fields keep their values after the app restarts.
+- [ ] A large guide (dozens of series) opens in acceptable time. Lookups run four at a time and are cached for five minutes.
 
-Ship a companion guide catalog that displays reading orders and tracks progress in its own storage. An "Open in Paperback" action should appear only when a real, verified route exists. Otherwise show the series/issue details for manual search.
+## Not implemented
+
+- Servers other than Komga (Kavita, Lanraragi, OPDS).
+- Filters in advanced search (publisher, category).
+- Fuzzy matching beyond exact normalized titles: a series with a different title in the library is reported as missing rather than guessed.

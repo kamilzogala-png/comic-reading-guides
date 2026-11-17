@@ -1,38 +1,1154 @@
-[
-  {
-    "id": "marvel-civil-war-2006",
-    "publisher": "Marvel",
-    "title": "Civil War",
-    "subtitle": "Event reading guide sample",
-    "category": "event",
-    "description": "A small starter sample of the main event and selected tie-ins. This is not a complete or definitive reading order.",
-    "readingOrder": "recommended",
-    "updatedAt": "2026-11-17",
-    "sourceAttribution": ["Editorial starter sample; issue order and tie-in placement require verification before publication."],
-    "issues": [
-      {"id":"marvel-cw-001","publisher":"Marvel","series":"Civil War","issueNumber":"1","year":2006,"readingNote":"Main event #1."},
-      {"id":"marvel-cw-002","publisher":"Marvel","series":"Amazing Spider-Man","issueNumber":"532","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
-      {"id":"marvel-cw-003","publisher":"Marvel","series":"New Avengers","issueNumber":"21","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
-      {"id":"marvel-cw-004","publisher":"Marvel","series":"Fantastic Four","issueNumber":"536","year":2006,"readingNote":"Selected tie-in; verify placement in the chosen reading order."},
-      {"id":"marvel-cw-005","publisher":"Marvel","series":"Civil War","issueNumber":"2","year":2006,"readingNote":"Main event #2."}
-    ]
-  },
-  {
-    "id": "dc-flashpoint-2011",
-    "publisher": "DC",
-    "title": "Flashpoint",
-    "subtitle": "Event reading guide sample",
-    "category": "event",
-    "description": "The five-issue core event. Tie-ins and companion series are intentionally not included in this starter sample.",
-    "readingOrder": "publication",
-    "updatedAt": "2026-11-17",
-    "sourceAttribution": ["Editorial starter sample; verify bibliographic details and add public source references before publication."],
-    "issues": [
-      {"id":"dc-fp-001","publisher":"DC","series":"Flashpoint","issueNumber":"1","year":2011,"readingNote":"Main event #1."},
-      {"id":"dc-fp-002","publisher":"DC","series":"Flashpoint","issueNumber":"2","year":2011,"readingNote":"Main event #2."},
-      {"id":"dc-fp-003","publisher":"DC","series":"Flashpoint","issueNumber":"3","year":2011,"readingNote":"Main event #3."},
-      {"id":"dc-fp-004","publisher":"DC","series":"Flashpoint","issueNumber":"4","year":2011,"readingNote":"Main event #4."},
-      {"id":"dc-fp-005","publisher":"DC","series":"Flashpoint","issueNumber":"5","year":2011,"readingNote":"Main event #5."}
-    ]
-  }
-]
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-11-17",
+  "guides": [
+    {
+      "id": "marvel-civil-war-2006",
+      "publisher": "Marvel",
+      "title": "Civil War",
+      "subtitle": "Event reading guide sample",
+      "category": "event",
+      "description": "A small starter sample of the main event and selected tie-ins. This is not a complete or definitive reading order.",
+      "readingOrder": "recommended",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter sample; issue order and tie-in placement require verification before publication."
+      ],
+      "issues": [
+        {
+          "id": "marvel-cw-001",
+          "publisher": "Marvel",
+          "series": "Civil War",
+          "issueNumber": "1",
+          "year": 2006,
+          "volumeYear": 2006,
+          "readingNote": "Main event #1."
+        },
+        {
+          "id": "marvel-cw-002",
+          "publisher": "Marvel",
+          "series": "Amazing Spider-Man",
+          "issueNumber": "532",
+          "year": 2006,
+          "volumeYear": 1963,
+          "readingNote": "Selected tie-in; verify placement in the chosen reading order."
+        },
+        {
+          "id": "marvel-cw-003",
+          "publisher": "Marvel",
+          "series": "New Avengers",
+          "issueNumber": "21",
+          "year": 2006,
+          "volumeYear": 2005,
+          "readingNote": "Selected tie-in; verify placement in the chosen reading order."
+        },
+        {
+          "id": "marvel-cw-004",
+          "publisher": "Marvel",
+          "series": "Fantastic Four",
+          "issueNumber": "536",
+          "year": 2006,
+          "volumeYear": 1961,
+          "readingNote": "Selected tie-in; verify placement in the chosen reading order."
+        },
+        {
+          "id": "marvel-cw-005",
+          "publisher": "Marvel",
+          "series": "Civil War",
+          "issueNumber": "2",
+          "year": 2006,
+          "volumeYear": 2006,
+          "readingNote": "Main event #2."
+        }
+      ],
+      "popular": true,
+      "tags": [
+        "Avengers",
+        "Spider-Man",
+        "Captain America",
+        "Iron Man"
+      ]
+    },
+    {
+      "id": "marvel-secret-wars-1984",
+      "publisher": "Marvel",
+      "title": "Secret Wars",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–12.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-secret-war-001",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "1",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-002",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "2",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-003",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "3",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-004",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "4",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-005",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "5",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-006",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "6",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-007",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "7",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-008",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "8",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-009",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "9",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-010",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "10",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-011",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "11",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-war-012",
+          "publisher": "Marvel",
+          "series": "Secret Wars",
+          "issueNumber": "12",
+          "volumeYear": 1984,
+          "readingNote": "Main series."
+        }
+      ],
+      "popular": true,
+      "tags": [
+        "Avengers",
+        "X-Men"
+      ]
+    },
+    {
+      "id": "marvel-infinity-gauntlet-1991",
+      "publisher": "Marvel",
+      "title": "Infinity Gauntlet",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–6.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-infinity-g-001",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "1",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-infinity-g-002",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "2",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-infinity-g-003",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "3",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-infinity-g-004",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "4",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-infinity-g-005",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "5",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-infinity-g-006",
+          "publisher": "Marvel",
+          "series": "Infinity Gauntlet",
+          "issueNumber": "6",
+          "volumeYear": 1991,
+          "readingNote": "Main series."
+        }
+      ],
+      "popular": true,
+      "tags": [
+        "Thanos",
+        "Avengers"
+      ]
+    },
+    {
+      "id": "marvel-house-of-m-2005",
+      "publisher": "Marvel",
+      "title": "House of M",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–8.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-house-of-m-001",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "1",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-002",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "2",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-003",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "3",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-004",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "4",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-005",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "5",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-006",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "6",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-007",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "7",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-house-of-m-008",
+          "publisher": "Marvel",
+          "series": "House of M",
+          "issueNumber": "8",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "X-Men",
+        "Avengers"
+      ]
+    },
+    {
+      "id": "marvel-world-war-hulk-2007",
+      "publisher": "Marvel",
+      "title": "World War Hulk",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–5.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-world-war--001",
+          "publisher": "Marvel",
+          "series": "World War Hulk",
+          "issueNumber": "1",
+          "volumeYear": 2007,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-world-war--002",
+          "publisher": "Marvel",
+          "series": "World War Hulk",
+          "issueNumber": "2",
+          "volumeYear": 2007,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-world-war--003",
+          "publisher": "Marvel",
+          "series": "World War Hulk",
+          "issueNumber": "3",
+          "volumeYear": 2007,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-world-war--004",
+          "publisher": "Marvel",
+          "series": "World War Hulk",
+          "issueNumber": "4",
+          "volumeYear": 2007,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-world-war--005",
+          "publisher": "Marvel",
+          "series": "World War Hulk",
+          "issueNumber": "5",
+          "volumeYear": 2007,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Hulk"
+      ]
+    },
+    {
+      "id": "marvel-secret-invasion-2008",
+      "publisher": "Marvel",
+      "title": "Secret Invasion",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–8.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-secret-inv-001",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "1",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-002",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "2",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-003",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "3",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-004",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "4",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-005",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "5",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-006",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "6",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-007",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "7",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-secret-inv-008",
+          "publisher": "Marvel",
+          "series": "Secret Invasion",
+          "issueNumber": "8",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Avengers",
+        "Skrulls"
+      ]
+    },
+    {
+      "id": "marvel-fear-itself-2011",
+      "publisher": "Marvel",
+      "title": "Fear Itself",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–7.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-fear-itsel-001",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "1",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-002",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "2",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-003",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "3",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-004",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "4",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-005",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "5",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-006",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "6",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-fear-itsel-007",
+          "publisher": "Marvel",
+          "series": "Fear Itself",
+          "issueNumber": "7",
+          "volumeYear": 2011,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Avengers",
+        "Thor"
+      ]
+    },
+    {
+      "id": "marvel-avx-2012",
+      "publisher": "Marvel",
+      "title": "Avengers vs. X-Men",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–12.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "m-avx-2012-001",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "1",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-002",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "2",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-003",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "3",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-004",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "4",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-005",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "5",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-006",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "6",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-007",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "7",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-008",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "8",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-009",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "9",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-010",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "10",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-011",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "11",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "m-avx-2012-012",
+          "publisher": "Marvel",
+          "series": "Avengers vs. X-Men",
+          "issueNumber": "12",
+          "volumeYear": 2012,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Avengers",
+        "X-Men"
+      ]
+    },
+    {
+      "id": "dc-flashpoint-2011",
+      "publisher": "DC",
+      "title": "Flashpoint",
+      "subtitle": "Event reading guide sample",
+      "category": "event",
+      "description": "The five-issue core event. Tie-ins and companion series are intentionally not included in this starter sample.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter sample; verify bibliographic details and add public source references before publication."
+      ],
+      "issues": [
+        {
+          "id": "dc-fp-001",
+          "publisher": "DC",
+          "series": "Flashpoint",
+          "issueNumber": "1",
+          "year": 2011,
+          "volumeYear": 2011,
+          "readingNote": "Main event #1."
+        },
+        {
+          "id": "dc-fp-002",
+          "publisher": "DC",
+          "series": "Flashpoint",
+          "issueNumber": "2",
+          "year": 2011,
+          "volumeYear": 2011,
+          "readingNote": "Main event #2."
+        },
+        {
+          "id": "dc-fp-003",
+          "publisher": "DC",
+          "series": "Flashpoint",
+          "issueNumber": "3",
+          "year": 2011,
+          "volumeYear": 2011,
+          "readingNote": "Main event #3."
+        },
+        {
+          "id": "dc-fp-004",
+          "publisher": "DC",
+          "series": "Flashpoint",
+          "issueNumber": "4",
+          "year": 2011,
+          "volumeYear": 2011,
+          "readingNote": "Main event #4."
+        },
+        {
+          "id": "dc-fp-005",
+          "publisher": "DC",
+          "series": "Flashpoint",
+          "issueNumber": "5",
+          "year": 2011,
+          "volumeYear": 2011,
+          "readingNote": "Main event #5."
+        }
+      ],
+      "popular": true,
+      "tags": [
+        "Flash"
+      ]
+    },
+    {
+      "id": "dc-crisis-on-infinite-earths-1985",
+      "publisher": "DC",
+      "title": "Crisis on Infinite Earths",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–12.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "d-crisis-on--001",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "1",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--002",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "2",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--003",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "3",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--004",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "4",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--005",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "5",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--006",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "6",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--007",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "7",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--008",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "8",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--009",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "9",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--010",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "10",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--011",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "11",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-crisis-on--012",
+          "publisher": "DC",
+          "series": "Crisis on Infinite Earths",
+          "issueNumber": "12",
+          "volumeYear": 1985,
+          "readingNote": "Main series."
+        }
+      ],
+      "popular": true,
+      "tags": [
+        "Multiverse"
+      ]
+    },
+    {
+      "id": "dc-identity-crisis-2004",
+      "publisher": "DC",
+      "title": "Identity Crisis",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–7.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "d-identity-c-001",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "1",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-002",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "2",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-003",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "3",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-004",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "4",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-005",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "5",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-006",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "6",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-identity-c-007",
+          "publisher": "DC",
+          "series": "Identity Crisis",
+          "issueNumber": "7",
+          "volumeYear": 2004,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Justice League"
+      ]
+    },
+    {
+      "id": "dc-infinite-crisis-2005",
+      "publisher": "DC",
+      "title": "Infinite Crisis",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–7.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "d-infinite-c-001",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "1",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-002",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "2",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-003",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "3",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-004",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "4",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-005",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "5",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-006",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "6",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-infinite-c-007",
+          "publisher": "DC",
+          "series": "Infinite Crisis",
+          "issueNumber": "7",
+          "volumeYear": 2005,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Multiverse"
+      ]
+    },
+    {
+      "id": "dc-final-crisis-2008",
+      "publisher": "DC",
+      "title": "Final Crisis",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–7.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "d-final-cris-001",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "1",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-002",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "2",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-003",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "3",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-004",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "4",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-005",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "5",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-006",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "6",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-final-cris-007",
+          "publisher": "DC",
+          "series": "Final Crisis",
+          "issueNumber": "7",
+          "volumeYear": 2008,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Darkseid"
+      ]
+    },
+    {
+      "id": "dc-blackest-night-2009",
+      "publisher": "DC",
+      "title": "Blackest Night",
+      "subtitle": "Main series",
+      "category": "event",
+      "description": "Core mini-series only; tie-ins are not included. Issues #1–8.",
+      "readingOrder": "publication",
+      "updatedAt": "2026-11-17",
+      "sourceAttribution": [
+        "Editorial starter list: main series only, no tie-ins. Verify against a public reading-order source before publication."
+      ],
+      "issues": [
+        {
+          "id": "d-blackest-n-001",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "1",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-002",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "2",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-003",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "3",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-004",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "4",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-005",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "5",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-006",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "6",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-007",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "7",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        },
+        {
+          "id": "d-blackest-n-008",
+          "publisher": "DC",
+          "series": "Blackest Night",
+          "issueNumber": "8",
+          "volumeYear": 2009,
+          "readingNote": "Main series."
+        }
+      ],
+      "tags": [
+        "Green Lantern"
+      ]
+    }
+  ]
+}

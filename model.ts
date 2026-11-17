@@ -1,6 +1,6 @@
 export type Publisher = "Marvel" | "DC";
 export type ProgressState = "unread" | "reading" | "read";
-export type GuideCategory = "event" | "character" | "creator" | "chronology";
+export type GuideCategory = "event" | "character" | "creator" | "chronology" | "series" | "era";
 export type ReadingOrder = "publication" | "recommended" | "chronological";
 
 export interface IssueReference {
@@ -8,15 +8,13 @@ export interface IssueReference {
   publisher: Publisher;
   series: string;
   issueNumber: string;
+  /** Year this issue was published (tie-breaker only). */
   year?: number;
+  /** Year the volume/series started, e.g. 1963 for Amazing Spider-Man vol. 1. */
+  volumeYear?: number;
   title?: string;
   readingNote?: string;
-  /** A public metadata/reference URL, not a comic-page download URL. */
-  metadataUrl?: string;
-  /** Set only after the target application's deep-link format is verified. */
-  paperbackDeepLink?: string;
-  /** Provider-specific identifier, only when obtained through a supported API. */
-  matchedSourceId?: string;
+  optional?: boolean;
 }
 
 export interface ReadingGuide {
@@ -25,6 +23,8 @@ export interface ReadingGuide {
   title: string;
   subtitle?: string;
   category: GuideCategory;
+  tags?: string[];
+  popular?: boolean;
   description: string;
   readingOrder: ReadingOrder;
   issues: IssueReference[];
@@ -41,13 +41,4 @@ export interface IssueProgress {
 export interface GuideProgress {
   guideId: string;
   issues: Record<string, IssueProgress>;
-}
-
-export interface InstalledChapterCandidate {
-  sourceId: string;
-  seriesTitle: string;
-  chapterNumber: string;
-  year?: number;
-  /** Only populate from a documented, verified Paperback API. */
-  openUrl?: string;
 }

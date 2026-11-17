@@ -2,12 +2,13 @@ import { ContentRating, SourceIntents, type ExtensionInfo } from "@paperback/typ
 
 export default {
   name: "Comic Reading Guides",
-  description: "Marvel and DC reading guides: browse events and read issues in order.",
-  version: "0.1.0",
+  description: "Marvel and DC reading guides. Optionally links issues to your own Komga library.",
+  version: "0.2.0",
   icon: "icon.png",
   language: "en",
   contentRating: ContentRating.EVERYONE,
   capabilities: [
+    SourceIntents.SETTINGS_FORM_PROVIDING,
     SourceIntents.DISCOVER_SECTION_PROVIDING,
     SourceIntents.SEARCH_RESULT_PROVIDING,
     SourceIntents.CHAPTER_PROVIDING,

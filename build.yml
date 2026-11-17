@@ -26,15 +26,23 @@ jobs:
         run: npm run validate
       - name: Typecheck
         run: npm run typecheck
+      - name: Run tests
+        run: npm test
       - name: Arrange files into the layout Paperback toolchain expects
         run: |
           mkdir -p src/ReadingGuides/static
-          cp main.ts pbconfig.ts guides.json src/ReadingGuides/
+          for f in *.ts; do
+            case "$f" in
+              *.test.ts) ;;
+              *) cp "$f" src/ReadingGuides/ ;;
+            esac
+          done
+          cp guides.json src/ReadingGuides/
           cp icon.png src/ReadingGuides/static/icon.png
       - name: Bundle extension
         run: npm run bundle
-      - name: Add images used by the extension
-        run: cp cover.png page.png bundles/
+      - name: Add hosted data and images
+        run: cp guides.json cover.png page.png bundles/
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
